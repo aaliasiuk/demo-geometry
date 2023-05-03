@@ -5,10 +5,6 @@ public class BoxDemo {
         double vol;
 
 
-        mybox1.setDim(10,20,15);
-        mybox2.setDim(3,6,9);
-
-
         vol = mybox1.volume();
         System.out.println("Volume equals to " + vol);
         vol = mybox2.volume();
