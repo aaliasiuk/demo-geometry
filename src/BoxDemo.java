@@ -14,8 +14,8 @@ public class BoxDemo {
         mybox2.depth = 9;
 
         vol = mybox1.volume();
-        System.out.println("Volume equals to ");
+        System.out.println("Volume equals to " + vol);
         vol = mybox2.volume();
-        System.out.println("Volume equals to ");
+        System.out.println("Volume equals to " + vol);
     }
 }
